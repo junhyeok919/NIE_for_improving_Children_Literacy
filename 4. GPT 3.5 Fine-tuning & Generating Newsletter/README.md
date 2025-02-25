@@ -1,4 +1,15 @@
-**본 프로젝트의 두 번째 핵심 내용은 생성형 AI를 사용해 신문기사 본문을 뉴스레터로 변환하는 것이었습니다. OpenAI의 API**를 사용하여 Prompt engineering 및 Fine-tuning을 반복 수행 후, 안정적으로 뉴스레터를 생성하는 기능을 개발했습니다. 
+### 🔖목차
+- [4. GPT 3.5 Fine-tuning & 뉴스레터 생성 자동화](#4-gpt-35-fine-tuning--뉴스레터-생성-자동화)
+  - [4.1. Prompt engineering을 통한 뉴스레터 생성](#41-prompt-engineering을-통한-뉴스레터-생성)
+  - [4.2. Fine-tuning을 통한 뉴스레터 생성(Ver1)](#42-fine-tuning을-통한-뉴스레터-생성-ver1)
+  - [4.3. Fine-tuning을 통한 뉴스레터 생성(Ver2)](#43-fine-tuning을-통한-뉴스레터-생성-ver2)
+  - [4.4. 뉴스레터 적합성 검증](#44-뉴스레터-적합성-검증)
+
+---
+
+# 4. GPT 3.5 Fine-tuning & 뉴스레터 생성 자동화 
+
+본 프로젝트의 두 번째 핵심 내용은 **생성형 AI를 사용해 신문기사 본문을 뉴스레터로 변환하는 것이었습니다. OpenAI의 API**를 사용하여 Prompt engineering 및 Fine-tuning을 반복 수행 후, 안정적으로 뉴스레터를 생성하는 기능을 개발했습니다. 
 
 ## 4.1. Prompt engineering을 통한 뉴스레터 생성
 
